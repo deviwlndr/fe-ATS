@@ -1,0 +1,1 @@
+export let urlAPI = "https://ws-ats-02a71362d079.herokuapp.com/undangan";
