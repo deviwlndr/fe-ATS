@@ -6,7 +6,8 @@ export function GetAllRapatMakrab(results) {
 }
 function isiRow(value) {
     let content = 
-    isiTabel.replace("KEPADA", value.undangan_rapat.kepada)
+    isiTabel.replace("ID", value._id)
+            .replace("KEPADA", value.undangan_rapat.kepada)
             .replace("ALAMAT", value.alamat)
             .replace("UKM", value.ukm)
             .replace("#WARNA#", getRandomColor())
